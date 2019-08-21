@@ -25,3 +25,17 @@ If you would like to configure kubernetes to run on your local workstation for n
 * [Docker Desktop (Mac)](https://docs.docker.com/docker-for-mac/kubernetes/) [Docker Desktop (Windows)](https://docs.docker.com/docker-for-windows/kubernetes/) Docker Desktop includes a kubernetes environment
 
 * [Microk8s](https://microk8s.io/docs/) Installable kubernetes packaged as an Ubuntu `snap` image.
+
+## Instructions for those with provided web terminal and cluster
+**Interact With Your Cluster From Provided Web Terminal** 
+
+
+1. Sign into www.cloud.ibm.com. Please use guest network or hotspot your phone if you can not get to this website due to firewall for this step. 
+2. Navigate to the left hand side hamburger menu in top left, then click on “dashboard” in the drop-down menu. 
+![](https://paper-attachments.dropbox.com/s_878C1E366CE3BC0E7C5F83D7C1CA600E85849877C47E2C809FD98306260E211F_1566423075745_Screen+Shot+2019-08-21+at+12.42.07+PM.png)
+
+3. Click on “Kubernetes cluster” where we have provisioned one cluster per web terminal.  Locate your cluster provisioned using **the same number** you have been assigned by web terminal. If I am web terminal 17, I’ll use kubernetes cluster 17, for example.  Click on your numbered cluster. 
+![](https://paper-attachments.dropbox.com/s_878C1E366CE3BC0E7C5F83D7C1CA600E85849877C47E2C809FD98306260E211F_1566423119116_Screen+Shot+2019-08-21+at+12.27.36+PM.png)
+
+4. Now you will see your cluster details and status. Click on the blue button “connect with CLI.”  Copy and paste the CLI commands to login, and configure your cluster. **Note:** **Do not forget to export** your KUBECONFIG as an environment variable, and copy the output provided from step 2 into your terminal. 
+![](https://paper-attachments.dropbox.com/s_878C1E366CE3BC0E7C5F83D7C1CA600E85849877C47E2C809FD98306260E211F_1566423366687_Screen+Shot+2019-08-21+at+12.27.53+PM.png)
