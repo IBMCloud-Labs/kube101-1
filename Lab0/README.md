@@ -29,6 +29,7 @@ If you would like to configure kubernetes to run on your local workstation for n
 ## Instructions for those with provided web terminal and cluster
 **Interact With Your Cluster From Provided Web Terminal** 
 
+Note: In the provided web terminal, the CLI downloads required will be provided. 
 
 1. Sign into www.cloud.ibm.com. Please use guest network or hotspot your phone if you can not get to this website due to firewall for this step. 
 2. Navigate to the left hand side hamburger menu in top left, then click on “dashboard” in the drop-down menu. 
