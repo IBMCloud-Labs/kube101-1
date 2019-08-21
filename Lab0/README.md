@@ -40,3 +40,8 @@ Note: In the provided web terminal, the CLI downloads required will be provided.
 
 4. Now you will see your cluster details and status. Click on the blue button “connect with CLI.”  Copy and paste the CLI commands to login, and configure your cluster. **Note:** **Do not forget to export** your KUBECONFIG as an environment variable, and copy the output provided from step 2 into your terminal. 
 ![](https://paper-attachments.dropbox.com/s_878C1E366CE3BC0E7C5F83D7C1CA600E85849877C47E2C809FD98306260E211F_1566423366687_Screen+Shot+2019-08-21+at+12.27.53+PM.png)
+
+## Helpful links 
+
+1. Graphs and explanation of Kubernetes in more detail: https://github.com/IBM/kube101/tree/master/workshop
+2. Kubernetes explained video: https://www.youtube.com/watch?v=aSrqRSk43lY
