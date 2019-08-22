@@ -41,6 +41,8 @@ Note: In the provided web terminal, the CLI downloads required will be provided.
 
 5. Run ``kubectl cluster-info`` and your cluster info should show up. If not, rinse and repeat up to step 1. 
 
+Head to [lab 1](https://github.com/IBMCloud-Labs/kube101-1/tree/master/Lab1)
+
 ## Helpful links 
 
 1. Graphs and explanation of Kubernetes in more detail: https://github.com/IBM/kube101/tree/master/workshop
