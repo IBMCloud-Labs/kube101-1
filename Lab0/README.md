@@ -35,7 +35,7 @@ Note: In the provided web terminal, the CLI downloads required will be provided.
 
 2. Type in ``ibmcloud ks clusters`` and locate YOUR cluster. 
 
-3. Locate your named cluster and type in ``kubectl cluster-config <insert your cluster name>``
+3. Locate your named cluster and type in ``ibmcloud ks cluster-config <YOURCLUSTERNAME>``
 
 4. Copy and paste your Kube configuration file in the yellow text directly into your terminal to export. 
 
