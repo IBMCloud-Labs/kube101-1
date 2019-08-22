@@ -39,6 +39,8 @@ Note: In the provided web terminal, the CLI downloads required will be provided.
 
 4. Copy and paste your Kube configuration file in the yellow text directly into your terminal to export. 
 
+5. Run ``kubectl cluster-info`` and your cluster info should show up. If not, rinse and repeat up to step 1. 
+
 ## Helpful links 
 
 1. Graphs and explanation of Kubernetes in more detail: https://github.com/IBM/kube101/tree/master/workshop
