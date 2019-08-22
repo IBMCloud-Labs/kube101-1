@@ -33,7 +33,7 @@ Note: In the provided web terminal, the CLI downloads required will be provided.
 
 1. Open up web terminal and sign in: ``ibmcloud login -a cloud.ibm.com -r us-east -g PNC``
 
-2. Type in ``ibmcloud ks clusters'' and locate YOUR cluster. 
+2. Type in ``ibmcloud ks clusters`` and locate YOUR cluster. 
 
 3. Locate your named cluster and type in ``kubectl cluster-config <insert your cluster name>``
 
